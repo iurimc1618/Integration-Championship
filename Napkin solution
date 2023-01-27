@@ -1,0 +1,32 @@
+
+
+
+import random,math,sympy,numpy
+a = random.randint(1,8)
+
+x = sympy.symbols('x')
+
+if a == 1:
+    expr = '2xcos(x^2)'
+    print(expr)
+if a == 2:
+    expr = 'cosh(x)'
+    print(expr)
+if a == 3:
+    expr = '3e^(3x)'
+    print(expr)
+if a == 4:
+    expr = 'cos(x)sin(x)'
+    print(expr)
+if a == 5:
+    expr = 'log(x)'
+    print(expr)
+if a == 6:
+    expr = 'sec^2(x)'
+    print(expr)
+if a == 7:
+    expr = 'cos^2(x)'
+    print(expr)
+if a == 8:
+    expr = 'x^4 - x^3 + x^2 - x + 1'
+    print(expr)
